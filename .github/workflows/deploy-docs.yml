@@ -8,40 +8,29 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy-gh-pages:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          # if your docs needs submodules, uncomment the following line
-          # submodules: true
-
-
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-
-      - name: Install Deps
-        run: npm ci
-
-      - name: Build Docs
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          npm run docs:build
-          > docs/.vuepress/dist/.nojekyll
-
-      - name: Deploy Docs
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # This is the branch where the docs are deployed to
-          branch: gh-pages
-          folder: docs/.vuepress/dist
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: alexrzem/rzem-guru
+          TARGET_BRANCH: gh-pages
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: docs/.vuepress/dist/
