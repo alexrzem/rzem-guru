@@ -35,12 +35,12 @@ jobs:
           node-version: 22
           cache: npm
       - name: Install Deps
-        run: npm ci
+        run: yarn
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          npm run docs:build
+          yarn run docs:build
           > docs/.vuepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
