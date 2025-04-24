@@ -4,6 +4,37 @@ This is a normal page, which contains VuePress basics.
 
 ## Pages
 
+```mermaid
+---
+config:
+  theme: dark
+  look: classic
+---
+flowchart TB
+ subgraph s1["Prompt"]
+        n1@{ label: "<span style=\"color:\">Text Prompt Input</span>" }
+        n2@{ label: "<span style=\"color:\">Text Encoding</span>" }
+  end
+ subgraph s2["<span style=color:>Random Noise Generation</span>"]
+        n5["Random Noise Generation"]
+  end
+ subgraph s3["<span style=color:>Diffusion Scheduler</span>"]
+        n6@{ label: "<span style=\"color:\">Diffusion Scheduler</span>" }
+  end
+    n1 --> n2
+    n3["Small Circle"] --> s1 & s2 & s3
+    s1 --> n7@{ label: "<span style=\"color:\">U-Net Denoising</span>" }
+    s2 --> n7
+    s3 --> n7
+    n1@{ shape: rounded}
+    n2@{ shape: rect}
+    n6@{ shape: rect}
+    n3@{ shape: sm-circ}
+    n7@{ shape: rect}
+
+
+```
+
 You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
 
 See [routing][] for more details.
