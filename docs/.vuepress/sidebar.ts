@@ -44,8 +44,12 @@ export const sidebar: SidebarOptions = {
       text: 'Stable Diffusion',
       children: [
         {
-          text: 'Guide',
+          text: 'SDXL',
           link: '/txt2img/sd/',
+        },
+				{
+          text: 'CLIP: Contrastive Language-Image Pre-training',
+          link: '/txt2img/sd/clip.md',
         },
       ],
     },
