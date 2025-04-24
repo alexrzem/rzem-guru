@@ -1,31 +1,19 @@
-import { defineNavbarConfig } from 'vuepress-theme-plume';
-import { version } from '../../package.json';
+import type { NavbarOptions } from '@vuepress/theme-default';
 
-export const navbar = defineNavbarConfig([
+export const navbar: NavbarOptions = [
+    { text: 'Home', link: '/' },
+    { text: 'Blueprints', 
+			children: [
+				{ text: 'Philosophical AI Risk Architect', link: '/blueprints/architectural-blueprints-for-a-philosophical-ai-risk-architect.md', },
+		],
+		 },
+    { text: 'Prompts', link: '/prompts/' },
     {
-        text: 'Blueprints',
-        icon: 'icon-park-outline:guide-board',
-        link: '/blueprints/',
-        activeMatch: '^/blueprints/',
-    },
-    {
-        text: 'Prompts',
-        icon: 'icon-park-outline:setting-two',
-        link: '/prmpts/',
-        activeMatch: '^/prmpts/',
-    },
-    {
-        text: 'Txt2Image',
-        icon: 'icon-park-outline:more-three',
-        items: [
-            {
-                text: 'Flux1',
-                link: '/txt2img/flux1/',
-            },
-            {
-                text: 'Stable Diffusion',
-								link: '/txt2img/stable-diffusion/',
-            },
+        text: 'Txt2Img',
+        children: [
+            { text: 'Flux1', link: '/txt2img/flux1/' },
+            { text: 'Midjourney', link: '/txt2img/midjourney/' },
+            { text: 'Stable Diffusion', link: '/txt2img/sd/' },
         ],
     },
-]);
+] as NavbarOptions;

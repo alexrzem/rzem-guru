@@ -5,6 +5,9 @@ import { defineUserConfig } from 'vuepress';
 import { defaultTheme } from '@vuepress/theme-default';
 import { viteBundler } from '@vuepress/bundler-vite';
 
+import { navbar } from './navbar';
+import { sidebar } from './sidebar';
+
 export default defineUserConfig({
     lang: 'en-US',
 
@@ -12,7 +15,7 @@ export default defineUserConfig({
     description: 'AI Stuff',
 
     public: path.resolve(__dirname, 'public'),
-    pagePatterns: ['**/*.md', '!**/*.snippet.md', '!.vuepress', '!node_modules'],
+    // site-level locales config
 
     alias: {
         '~/theme': path.resolve(__dirname, './themes'),
@@ -27,19 +30,7 @@ export default defineUserConfig({
         logo: 'logo.png',
         docsDir: 'docs',
 
-        navbar: [
-            { text: 'Home', link: '/' },
-						{ text: 'Blueprints', link: '/blueprints' },
-            { text: 'Prompts', link: '/prompts' },
-            { text: 'Txt2Img', 
-							prefix: '/txt2img/',
-							children: [
-								{text: 'Flux1', link: '/flux1'},
-								{text: 'Midjourney', link: '/midjourney'},
-								{text: 'Stable Diffusion', link: '/sd'}
-							],
-
-						},
-        ],
+        navbar: navbar,
+				sidebar: sidebar,
     }),
 });

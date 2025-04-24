@@ -1,5 +1,5 @@
 ---
-title: architectural-blueprints-for-a-philosophical-ai-risk-architect
+title: Philosophical AI Risk Architect
 ---
 # Architectural Blueprints for a Philosophical AI Risk Architect
 
