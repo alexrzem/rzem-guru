@@ -22,6 +22,7 @@
 		"vuepress-plugin-mermaidjs": "^2.0.0-beta.2"
 	},
 	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "^4.40.0"
+		"@rollup/rollup-linux-x64-gnu": "^4.40.0",
+		"sass-embedded-linux-x64-gnu": "^1.86.0"
 	}
 }
