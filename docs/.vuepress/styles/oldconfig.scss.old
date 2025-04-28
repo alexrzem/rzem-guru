@@ -1,3 +1,7 @@
+$width: 2.5rem;
+$height: 2.5rem;
+$colors: #e16170, #2cbf6e, #2c97df;
+
 $color-primary: #2c97df;
 $color-action: #2c97df;
 $color-success: #2cbf6e;

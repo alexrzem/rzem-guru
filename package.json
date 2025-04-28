@@ -5,6 +5,7 @@
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
+		"dev": "node ./posters.js",
 		"docs:build": "vuepress build docs",
 		"docs:clean-dev": "vuepress dev docs --clean-cache",
 		"docs:dev": "vuepress dev docs --port 5173",
@@ -24,5 +25,10 @@
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "^4.40.0",
 		"sass-embedded-linux-x64": "^1.86.0"
+	},
+	"dependencies": {
+		"axios": "^1.9.0",
+		"fs-extra": "^11.3.0",
+		"lodash": "^4.17.21"
 	}
 }

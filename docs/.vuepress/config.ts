@@ -10,12 +10,13 @@ import { sidebar } from './sidebar';
 
 export default defineUserConfig({
     lang: 'en-US',
-
     title: 'rzem.guru',
     description: 'AI Stuff',
 
+    bundler: viteBundler(),
+		pagePatterns: ['**/*.md', '!**/private.*', '!**/*.snippet.md', '!.vuepress', '!node_modules'],
+    plugins: [],
     public: path.resolve(__dirname, 'public'),
-    // site-level locales config
 
     alias: {
         '~/theme': path.resolve(__dirname, './themes'),
@@ -23,14 +24,13 @@ export default defineUserConfig({
         '~/composables': path.resolve(__dirname, './themes/composables'),
     },
 
-    bundler: viteBundler(),
-    plugins: [],
-
     theme: defaultTheme({
         logo: 'logo.png',
         docsDir: 'docs',
-
+        hostname: 'rzem.guru',
+        colorMode: 'auto',
+        home: '/',
         navbar: navbar,
-				sidebar: sidebar,
+        sidebar: sidebar,
     }),
 });
