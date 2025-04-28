@@ -1,57 +1,66 @@
-import type { SidebarOptions } from '@vuepress/theme-default'
+import type { SidebarOptions } from '@vuepress/theme-default';
 
 export const sidebar: SidebarOptions = {
-  '/blueprints/': [
-    {
-      text: 'Blueprints',
-      children: [
-        '/blueprints/architectural-blueprints-for-a-philosophical-ai-risk-architect.md',
-      ],
-    },
-  ],
-  '/prompts/': [
-    {
-      text: 'Nates Secret Sauce',
-      children: [
-        '/prompts/nates-secret-sauce-a-prompt-engineering-masterclass-using-19-prompts-to-write-a-47-page-report-on-the-history-of-ai.md',
-      ],
-    }
-  ],
-  '/txt2img/': [
-    {
-      text: 'Flux1',
-      collapsible: true,
-      children: [
+    '/blueprints/': [
         {
-					text: 'Guide',
-					link: '/txt2img/flux1/readme.md',}
-      ],
-    },
-    {
-      text: 'Midjourney',
-      children: [
-				{
-          text: 'Midjourney',
-          link: 'https://www.midjourney.com/',
+            text: 'Blueprints',
+            children: ['/blueprints/architectural-blueprints-for-a-philosophical-ai-risk-architect.md'],
         },
-				{
-          text: 'Moodboards',
-          link: '/txt2img/midjourney/moodboards.md',
-        },
-			],
-    },
-    {
-      text: 'Stable Diffusion',
-      children: [
+    ],
+    '/txt2img/': [
         {
-          text: 'SDXL',
-          link: '/txt2img/sd/',
+            text: 'Image Generators',
+            link: '/txt2img/txt2img.md',
         },
-				{
-          text: 'CLIP: Contrastive Language-Image Pre-training',
-          link: '/txt2img/sd/clip.md',
+        {
+            text: 'Prompting',
+            collapsible: true,
+            children: [
+                {
+                    text: 'Prompt Generators',
+                    link: '/txt2img/prompt_generators/readme.md',
+                },
+            ],
         },
-      ],
-    },
-  ],
-}
+        {
+            text: 'Flux1',
+            collapsible: true,
+            children: [
+                {
+                    text: 'fal.ai',
+                    link: 'https://fal.ai/models',
+                },
+                {
+                    text: 'Guide',
+                    link: '/txt2img/flux1/readme.md',
+                },
+            ],
+        },
+        {
+            text: 'Midjourney',
+            children: [
+                {
+                    text: 'Midjourney',
+                    link: 'https://www.midjourney.com/',
+                },
+                {
+                    text: 'Moodboards',
+                    link: '/txt2img/midjourney/moodboards.md',
+                },
+            ],
+        },
+        {
+            text: 'Stable Diffusion',
+            children: [
+                {
+                    text: 'SDXL',
+                    link: '/txt2img/sd/',
+                },
+                {
+                    text: 'CLIP: Contrastive Language-Image Pre-training',
+                    link: '/txt2img/sd/clip.md',
+                },
+            ],
+        },
+    ],
+};
