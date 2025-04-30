@@ -33,8 +33,8 @@
     --vp-c-control-disabled: #eaeaea;
 
     // layout colors
-    --vp-navbar-c-bg: #030712;
-    --vp-sidebar-c-bg: #2e353d;
+    --vp-navbar-c-bg: #353c45;
+    --vp-sidebar-c-bg: #c2cbcf;
 
     // code group colors
     --vp-c-code-tab-title: var(--code-c-text, rgb(255 255 255 / 90%));
@@ -93,7 +93,7 @@
     --vp-c-accent-soft: rgb(16 185 129 / 16%);
 
     // background colors
-    --vp-c-bg: #1b1b1f;
+    --vp-c-bg: #353c45;
     --vp-c-bg-alt: #161618;
     --vp-c-bg-elv: #202127;
 
@@ -104,7 +104,7 @@
 
     // border colors
     --vp-c-gutter: #000;
-    --vp-c-border: #3c3f44;
+    --vp-c-border: #353c45;
     --vp-c-border-hard: #45484e;
 
     // shadow color
@@ -115,7 +115,7 @@
     --vp-c-control-hover: rgb(101 117 133 / 18%);
     --vp-c-control-disabled: #363636;
 
-		// layout colors
-		--vp-navbar-c-bg: #030712;
-    --vp-sidebar-c-bg: #2e353d;
+    // layout colors
+    --vp-navbar-c-bg: #2e353d;
+    --vp-sidebar-c-bg: #353c45;
 }
