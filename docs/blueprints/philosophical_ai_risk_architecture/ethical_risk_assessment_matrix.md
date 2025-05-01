@@ -1,6 +1,6 @@
 ---
 title: Ethical Risk Assessment Matrix
-
+icon: file-lines
 ---
 
 # Ethical Risk Assessment Matrix (ERAM)
@@ -43,7 +43,7 @@ The ERAM would contain:
 
 ## Risk Identification Methodologies
 
-- **Systematic Risk Discovery**
+### **Systematic Risk Discovery**
   - Expert elicitation protocols
   - Stakeholder consultation frameworks
   - Scenario planning methodologies
@@ -52,7 +52,7 @@ The ERAM would contain:
   - Cross-domain risk mapping
   - Emerging risk scanning procedures
 
-- **Risk Factor Analysis**
+### **Risk Factor Analysis**
   - Contributing factor identification methods
   - Risk interaction mapping
   - Causal pathway modeling
@@ -60,7 +60,7 @@ The ERAM would contain:
   - Early warning signal development
   - Threshold identification approaches
 
-- **Blind Spot Identification**
+### **Blind Spot Identification**
   - Unknown unknown discovery methods
   - Cognitive bias mitigation techniques
   - Diverse perspective integration
@@ -69,7 +69,7 @@ The ERAM would contain:
 
 ## Risk Quantification
 
-- **Likelihood Assessment**
+### **Likelihood Assessment**
   - Probability estimation techniques for novel risks
   - Confidence level determination
   - Expert calibration methods
@@ -77,7 +77,7 @@ The ERAM would contain:
   - Precursor monitoring approaches
   - Uncertainty representation standards
 
-- **Impact Measurement**
+### **Impact Measurement**
   - Multi-dimensional impact scoring
   - Severity scales for different harm types
   - Reversibility assessment
@@ -85,7 +85,7 @@ The ERAM would contain:
   - Special consideration frameworks for vulnerable populations
   - Cultural variation in impact assessment
 
-- **Uncertainty Handling**
+### **Uncertainty Handling**
   - Deep uncertainty methodologies
   - Confidence interval determination
   - Range estimation approaches
@@ -95,7 +95,7 @@ The ERAM would contain:
 
 ## Risk Prioritization Frameworks
 
-- **Ethical Weight Determination**
+### **Ethical Weight Determination**
   - Justice-based prioritization principles
   - Rights-based weighting frameworks
   - Utility-based assessment approaches
@@ -103,7 +103,7 @@ The ERAM would contain:
   - Care ethics applications to risk ranking
   - Democratic legitimacy factors
 
-- **Resource Allocation Models**
+### **Resource Allocation Models**
   - Cost-effectiveness analysis for mitigation measures
   - Optimization approaches for limited resources
   - Efficiency-equity balance frameworks
@@ -111,7 +111,7 @@ The ERAM would contain:
   - Contingency resource allocation models
   - Return on investment calculation methods
 
-- **Decision Support Tools**
+### **Decision Support Tools**
   - Multi-criteria decision analysis frameworks
   - Ethical decision matrices
   - Visual risk comparison tools
@@ -121,7 +121,7 @@ The ERAM would contain:
 
 ## Mitigation Strategy Development
 
-- **Prevention Approaches**
+### **Prevention Approaches**
   - Design alteration methodologies
   - Training data modification strategies
   - Constraint implementation techniques
@@ -129,7 +129,7 @@ The ERAM would contain:
   - Deployment restriction frameworks
   - Stakeholder engagement models
 
-- **Resilience Building**
+### **Resilience Building**
   - Fault tolerance enhancement
   - Graceful failure design
   - Ethical fallback behavior specification
@@ -137,7 +137,7 @@ The ERAM would contain:
   - Recovery mechanism design
   - Stress testing methodologies
 
-- **Harm Reduction**
+### **Harm Reduction**
   - Impact limitation strategies
   - Compensation framework development
   - Remediation process design
@@ -154,7 +154,7 @@ The ERAM would contain:
   - Distributed responsibility models
   - Autonomy vs. oversight balance
 
-- **Monitoring Requirements**
+### **Monitoring Requirements**
   - Continuous assessment protocols
   - Metric development for ongoing monitoring
   - Warning system design
@@ -162,7 +162,7 @@ The ERAM would contain:
   - Reporting requirements
   - Independent verification approaches
 
-- **Adaptation Mechanisms**
+### **Adaptation Mechanisms**
   - Learning integration processes
   - Feedback loop design
   - Mitigation effectiveness assessment
@@ -172,7 +172,7 @@ The ERAM would contain:
 
 ## Risk Communication
 
-- **Stakeholder Disclosure**
+### **Stakeholder Disclosure**
   - Transparency requirements by stakeholder type
   - Clear communication standards
   - Uncertainty representation guidelines
@@ -180,7 +180,7 @@ The ERAM would contain:
   - Cultural sensitivity approaches
   - Context-appropriate detail levels
 
-- **Informed Consent Frameworks**
+### **Informed Consent Frameworks**
   - Risk understanding verification
   - Opt-in vs. opt-out models for different risk levels
   - Consent renewal requirements
@@ -188,7 +188,7 @@ The ERAM would contain:
   - Withdrawal options design
   - Special rules for vulnerable populations
 
-- **Public Communication Standards**
+### **Public Communication Standards**
   - Crisis communication protocols
   - Proactive disclosure guidelines
   - Technical translation requirements

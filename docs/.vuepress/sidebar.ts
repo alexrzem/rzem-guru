@@ -1,74 +1,116 @@
-import type { SidebarOptions } from "@vuepress/theme-default";
+import { SidebarOptions } from 'vuepress-theme-hope/client';
 
 export const sidebar: SidebarOptions = {
-  "/blueprints/": [
-    {
-      text: "Blueprints",
-      children: [
-        "/blueprints/architectural-blueprints-for-a-philosophical-ai-risk-architect.md",
-        "/blueprints/ethical_learning_safeguards.md",
-        "/blueprints/ethical_risk_assessment_matrix.md",
-        "/blueprints/ethical_transparency_protocol.md",
-        "/blueprints/moral_uncertainty_framework.md",
-        "/blueprints/philosophical_guardrail_architecture.md",
-        "/blueprints/sociotechnical_integration_plan.md",
-      ],
-    },
-  ],
-  "/txt2img/": [
-    {
-      text: "Image Generators",
-      link: "/txt2img/txt2img.md",
-    },
-    {
-      text: "Prompting",
-      collapsible: true,
-      children: [
+    '/blueprints/': [
         {
-          text: "Prompt Generators",
-          link: "/txt2img/prompt_generators/readme.md",
+            text: 'Blueprints',
+            children: [
+                {
+                    text: 'Philosophical AI Risk',
+                    link: '/blueprints/philosophical_ai_risk_architecture/',
+                    icon: 'brain',
+                    children: [
+                        {
+                            text: 'Learning Safeguards',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_learning_safeguards.md',
+                        },
+                        {
+                            text: 'Assessment Matrix',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_risk_assessment_matrix.md',
+                        },
+                        {
+                            text: 'Transparency Protocol',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_transparency_protocol.md',
+                        },
+                        {
+                            text: 'Uncertainty Framework',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/moral_uncertainty_framework.md',
+                        },
+                        {
+                            text: 'Guardrail Architecture',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/philosophical_guardrail_architecture.md',
+                        },
+                        {
+                            text: 'Integration Plan',
+                            icon: 'file-lines',
+                            link: '/blueprints/philosophical_ai_risk_architecture/sociotechnical_integration_plan.md',
+                        },
+                    ],
+                },
+            ],
         },
-      ],
-    },
-    {
-      text: "Flux1",
-      collapsible: true,
-      children: [
+    ],
+    '/txt2img/': [
         {
-          text: "fal.ai",
-          link: "https://fal.ai/models",
-        },
-        {
-          text: "Guide",
-          link: "/txt2img/flux1/readme.md",
-        },
-      ],
-    },
-    {
-      text: "Midjourney",
-      children: [
-        {
-          text: "Midjourney",
-          link: "https://www.midjourney.com/",
-        },
-        {
-          text: "Moodboards",
-          link: "/txt2img/midjourney/moodboards.md",
-        },
-      ],
-    },
-    {
-      text: "Stable Diffusion",
-      children: [
-        {
-          text: "SDXL",
-          link: "/txt2img/sd/",
+            text: 'Image Generators',
+            icon: 'image',
+            link: '/txt2img/txt2img.md',
         },
         {
-          text: "CLIP: Contrastive Language-Image Pre-training",
-          link: "/txt2img/sd/clip.md",
+            text: 'Prompting',
+						icon: 'pen-to-square',
+            collapsible: true,
+            children: [
+                {
+                    text: 'Prompt Generators',
+										icon: 'file-lines',
+                    link: '/txt2img/prompt_generators/readme.md',
+                },
+            ],
         },
-      ],
-    },
-  ],
+        {
+            text: 'Flux1',
+						icon: 'file-image',
+            collapsible: true,
+            children: [
+                {
+                    text: 'fal.ai',
+										icon: 'paper-plane',
+                    link: 'https://fal.ai/models',
+                },
+                {
+                    text: 'Guide',
+										icon: 'file-image',
+                    link: '/txt2img/flux1/readme.md',
+                },
+            ],
+        },
+        {
+            text: 'Midjourney',
+						icon: 'file-image',
+            children: [
+                {
+                    text: 'Midjourney',
+										icon: 'paper-plane',
+                    link: 'https://www.midjourney.com/',
+                },
+                {
+                    text: 'Moodboards',
+										icon: 'file-lines',
+                    link: '/txt2img/midjourney/moodboards.md',
+                },
+            ],
+        },
+        {
+            text: 'Stable Diffusion',
+						icon: 'file-image',
+            children: [
+                {
+                    text: 'SDXL',
+										icon: 'file-lines',
+                    link: '/txt2img/sd/',
+                },
+                {
+                    text: 'CLIP: Contrastive Language-Image Pre-training',
+										icon: 'file-lines',
+                    link: '/txt2img/sd/clip.md',
+                },
+            ],
+        },
+    ],
 };

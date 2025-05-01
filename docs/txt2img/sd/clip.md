@@ -1,5 +1,6 @@
 ---
 title: Contrastive Language-Image Pre-training
+icon: file-image
 ---
 
 # CLIP: Contrastive Language-Image Pre-training
@@ -53,10 +54,10 @@ In the context of Stable Diffusion XL (SDXL) and other diffusion models:
 
 ## Technical Specifics
 
-- **Dimensionality**: CLIP typically works with embedding spaces of 512 to 768 dimensions (or higher in larger models).
-- **Tokenization**: The text encoder uses a byte-pair encoding tokenizer with a vocabulary of 49,152 tokens.
-- **Context Length**: Standard CLIP text encoders can handle 77 tokens of context (roughly 40-50 words).
-- **Pre-training Scale**: CLIP was trained on a dataset of 400 million image-text pairs for computational efficiency reasons, though the researchers noted scaling to larger datasets would likely improve performance further.
+### **Dimensionality**: CLIP typically works with embedding spaces of 512 to 768 dimensions (or higher in larger models).
+### **Tokenization**: The text encoder uses a byte-pair encoding tokenizer with a vocabulary of 49,152 tokens.
+### **Context Length**: Standard CLIP text encoders can handle 77 tokens of context (roughly 40-50 words).
+### **Pre-training Scale**: CLIP was trained on a dataset of 400 million image-text pairs for computational efficiency reasons, though the researchers noted scaling to larger datasets would likely improve performance further.
 
 ## Limitations
 

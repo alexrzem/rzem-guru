@@ -1,6 +1,6 @@
 ---
 title: Philosophical Guardrail Architecture
-
+icon: file-lines
 ---
 
 # Philosophical Guardrail Architecture (PGA)
@@ -18,21 +18,21 @@ The PGA would contain:
 
 ## Ethical Constraint Specifications
 
-- **Hard Constraint Definition**
+### **Hard Constraint Definition**
   - Formal specification languages for inviolable boundaries
   - Immutable value protection
   - Implementation verification methodologies
   - Testing protocols for boundary conditions
   - Performance impact assessment
 
-- **Soft Constraint Design**
+### **Soft Constraint Design**
   - Graduated constraint frameworks
   - Warning threshold establishment
   - Override protocols with appropriate logging
   - Exception handling procedures
   - Context-sensitivity implementation
 
-- **Meta-Level Constraints**
+### **Meta-Level Constraints**
   - Self-modification limitations
   - Learning boundary establishment
   - Resource utilization constraints
@@ -41,28 +41,28 @@ The PGA would contain:
 
 ## Technical Implementation Patterns
 
-- **Rule-Based Systems**
+### **Rule-Based Systems**
   - Rule formalization methodologies
   - Rule conflict resolution approaches
   - Rule verification techniques
   - Rule set completeness assessment
   - Rule maintenance procedures
 
-- **Reinforcement Learning Approaches**
+### **Reinforcement Learning Approaches**
   - Reward function construction principles
   - Penalty implementation for boundary approaches
   - Safe exploration methodologies
   - Environment design for constraint learning
   - Human feedback integration
 
-- **Supervised Approaches**
+### **Supervised Approaches**
   - Dataset construction for boundary learning
   - Classifier development for ethical violations
   - Threshold calibration methodologies
   - Confidence assessment integration
   - Human review triggering mechanisms
 
-- **Hybrid Architectures**
+### **Hybrid Architectures**
   - Multi-layer safety approaches
   - Complementary constraint systems
   - Verification across architectural components
@@ -71,21 +71,21 @@ The PGA would contain:
 
 ## Activation Mechanisms
 
-- **Ethical Tripwires**
+### **Ethical Tripwires**
   - Early warning system design
   - Precursor detection methodologies
   - Graduated response frameworks
   - False positive mitigation
   - Sensitivity calibration approaches
 
-- **Circuit Breakers**
+### **Circuit Breakers**
   - System halting mechanisms
   - Safe shutdown procedures
   - Restart protocols with verification
   - Partial functionality preservation
   - Human notification requirements
 
-- **Containment Protocols**
+### **Containment Protocols**
   - Sandboxing techniques
   - Resource limitation approaches
   - Capability restriction methods
@@ -94,21 +94,21 @@ The PGA would contain:
 
 ## Human Oversight Integration
 
-- **Review Triggers**
+### **Review Triggers**
   - Threshold establishment methodologies
   - Confidence-based escalation
   - Novelty detection for human review
   - Risk-based review routing
   - Urgency assessment frameworks
 
-- **Override Systems**
+### **Override Systems**
   - Authorization frameworks
   - Multi-party approval protocols
   - Documentation requirements
   - Post-override review procedures
   - Override limitation principles
 
-- **Appeal Mechanisms**
+### **Appeal Mechanisms**
   - User challenge processes
   - Review procedure specifications
   - Adjudication frameworks
@@ -117,21 +117,21 @@ The PGA would contain:
 
 ## Verification and Validation
 
-- **Formal Verification**
+### **Formal Verification**
   - Proof methodology selection
   - Specification-implementation correspondence
   - Completeness assessment
   - Computational tractability approaches
   - Simplified model development
 
-- **Empirical Testing**
+### **Empirical Testing**
   - Boundary condition test suite development
   - Adversarial testing frameworks
   - Edge case identification methodologies
   - Statistical verification approaches
   - Test coverage assessment
 
-- **Runtime Monitoring**
+### **Runtime Monitoring**
   - Behavioral signature development
   - Anomaly detection systems
   - Performance metric tracking
@@ -140,21 +140,21 @@ The PGA would contain:
 
 ## Failure Response
 
-- **Graceful Degradation**
+### **Graceful Degradation**
   - Functionality preservation priorities
   - Performance reduction approaches
   - Capability limitation protocols
   - Minimum viable operation definitions
   - Recovery pathway design
 
-- **Safe Harbor Modes**
+### **Safe Harbor Modes**
   - Default safety configurations
   - Minimum risk operating parameters
   - Essential functionality preservation
   - Human notification requirements
   - Return to normal operation procedures
 
-- **Accountability Mechanisms**
+### **Accountability Mechanisms**
   - Logging requirements
   - Post-incident review protocols
   - Responsibility determination frameworks

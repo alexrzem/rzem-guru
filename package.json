@@ -5,15 +5,16 @@
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
+		"docs:dev": "vuepress dev docs --port 5173",
 		"dev": "node ./backup/posters.js",
 		"docs:build": "vuepress build docs",
 		"docs:clean-dev": "vuepress dev docs --clean-cache",
-		"docs:dev": "vuepress dev docs --port 5173",
 		"docs:update-package": "npx vp-update"
 	},
 	"devDependencies": {
 		"@types/vue": "^1.0.31",
 		"@vuepress/bundler-vite": "2.0.0-rc.22",
+		"@vuepress/plugin-docsearch": "^2.0.0-rc.98",
 		"@vuepress/theme-default": "^2.0.0-rc.96",
 		"mermaid": "^11.6.0",
 		"sass-embedded": "^1.86.0",
@@ -29,6 +30,7 @@
 	"dependencies": {
 		"axios": "^1.9.0",
 		"fs-extra": "^11.3.0",
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"vuepress-theme-hope": "^2.0.0-rc.84"
 	}
 }

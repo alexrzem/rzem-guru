@@ -1,5 +1,6 @@
 ---
 title: Image Generators
+icon: image
 ---
 
 # AI Image Generators

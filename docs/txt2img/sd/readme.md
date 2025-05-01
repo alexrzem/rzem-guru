@@ -1,5 +1,6 @@
 ---
 title: stablediffusion
+icon: file-image
 ---
 # Stable Diffusion
 
@@ -44,10 +45,10 @@ A typical SDXL workflow uses two models:
 
 ### Key Parameters:
 
-- **Seed**: Controls randomness - same seed produces similar results
-- **Steps**: How many iterations - more steps generally means more detail
-- **CFG Scale**: How closely to follow the prompt - higher values mean stricter adherence
-- **Sampler**: Algorithm used (like Euler, DPM++, etc.)
-- **Denoise**: For refiners, controls how much of the original image to modify
+### **Seed**: Controls randomness - same seed produces similar results
+### **Steps**: How many iterations - more steps generally means more detail
+### **CFG Scale**: How closely to follow the prompt - higher values mean stricter adherence
+### **Sampler**: Algorithm used (like Euler, DPM++, etc.)
+### **Denoise**: For refiners, controls how much of the original image to modify
 
 If you'd like me to explain any of these concepts in more detail, or if you manage to upload the specific workflow file, I'd be happy to provide a more customized explanation based on your workflow.

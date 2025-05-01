@@ -1,5 +1,7 @@
 ---
 home: true
+heroText: Rzem.Guru
+tagline: AI Thoughts & Stuff
 
 features:
   - title: Blueprints

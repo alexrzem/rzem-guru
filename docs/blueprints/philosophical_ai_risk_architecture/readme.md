@@ -1,6 +1,6 @@
 ---
-title: Philosophical AI Risk Architect
-
+title: Philosophical AI Risk Architecture
+icon: brain
 ---
 
 # Architectural Blueprints for a Philosophical AI Risk Architect
