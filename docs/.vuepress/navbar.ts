@@ -7,7 +7,10 @@ export const navbar: NavbarOptions = [
     },
     {
         text: 'Blueprints',
-        link: '/blueprints/',
+        children: [
+			{ text: 'AI Risk Architect', link: '/blueprints/ai_risk_architect/', icon: 'regular:file-image' },
+			{ text: 'AI Regulation', link: '/blueprints/ai_regulation/', icon: 'regular:file-image' }
+		],
     },
 
     {

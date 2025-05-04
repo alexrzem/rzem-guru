@@ -1,4 +1,4 @@
 ---
-title: Overview
+title: Blueprints
 icon: regular:file
 ---

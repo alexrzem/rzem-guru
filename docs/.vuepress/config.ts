@@ -1,7 +1,6 @@
 import path from 'node:path';
 
 import { defineUserConfig } from 'vuepress';
-import { defaultTheme } from '@vuepress/theme-default';
 import { viteBundler } from '@vuepress/bundler-vite';
 import { hopeTheme } from 'vuepress-theme-hope';
 
@@ -36,22 +35,18 @@ export default defineUserConfig({
         //['meta', { name: "theme-color", content: "#ffffff"}],
     ],
 
-    // theme: defaultTheme({
-    //     logo: 'logo.png',
-    //     docsDir: 'docs',
-    //     hostname: 'rzem.guru',
-    //     colorMode: 'auto',
-    //     home: '/',
-    //     navbar: navbar,
-    //     sidebar: sidebar,
-    // }),
-
     theme: hopeTheme({
         darkmode: 'enable', // or "toggle", "auto", "enable", "disable", "switch"
         logo: 'logo.png',
         navbar: navbar,
-				sidebar: sidebar,
+        sidebar: sidebar,
         print: false,
+        markdown: {
+            codeTabs: true,
+            component: true,
+            imgMark: true,
+            include: true,
+        },
         plugins: {
             docsearch: {
                 // plugin options here

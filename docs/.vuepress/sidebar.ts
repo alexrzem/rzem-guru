@@ -6,39 +6,67 @@ export const sidebar: SidebarOptions = {
             text: 'Blueprints',
             children: [
                 {
-                    text: 'Philosophical AI Risk',
-                    link: '/blueprints/philosophical_ai_risk_architecture/',
+                    text: 'AI Risk Architect',
+                    link: '/blueprints/ai_risk_architect/',
                     icon: 'brain',
+                    collapsible: true,
                     children: [
                         {
-                            text: 'Learning Safeguards',
+                            text: 'Assessment Frameworks',
                             icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_learning_safeguards.md',
+                            link: '/blueprints/ai_risk_architect/ai_risk_assessment_frameworks.md',
                         },
                         {
-                            text: 'Assessment Matrix',
+                            text: 'AI Governance',
                             icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_risk_assessment_matrix.md',
+                            collapsible: true,
+                            children: [
+                                {
+                                    text: 'AI Governance Structures',
+                                    icon: 'regular:file-lines',
+                                    link: '/blueprints/ai_risk_architect/ai_governance/structures.md',
+                                },
+                                {
+                                    text: 'AI Governance Policies',
+                                    icon: 'regular:file-lines',
+                                    link: '/blueprints/ai_risk_architect/ai_governance/policies.md',
+                                },
+                                {
+                                    text: 'AI Governance Procedures',
+                                    icon: 'regular:file-lines',
+                                    link: '/blueprints/ai_risk_architect/ai_governance/procedures.md',
+                                },
+                            ],
                         },
                         {
-                            text: 'Transparency Protocol',
+                            text: 'AI Risk Workshops',
                             icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/ethical_transparency_protocol.md',
+                            collapsible: true,
+                            children: [
+                                {
+                                    text: 'Non-technical Agenda',
+                                    icon: 'regular:file-lines',
+                                    link: '/blueprints/ai_risk_architect/risk_workshops/nontechnical_stakeholders.md',
+                                },
+                                {
+                                    text: 'Technical Agenda',
+                                    icon: 'regular:file-lines',
+                                    link: '/blueprints/ai_risk_architect/risk_workshops/technical_stakeholders.md',
+                                },
+                            ],
                         },
+                    ],
+                },
+                {
+                    text: 'AI Regulation',
+                    icon: 'regular:file-lines',
+                    collapsible: true,
+                    link: '/blueprints/ai_regulation/',
+                    children: [
                         {
-                            text: 'Uncertainty Framework',
+                            text: 'ISO/IEC 27001',
                             icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/moral_uncertainty_framework.md',
-                        },
-                        {
-                            text: 'Guardrail Architecture',
-                            icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/philosophical_guardrail_architecture.md',
-                        },
-                        {
-                            text: 'Integration Plan',
-                            icon: 'regular:file-lines',
-                            link: '/blueprints/philosophical_ai_risk_architecture/sociotechnical_integration_plan.md',
+                            link: '/blueprints/ai_regulation/iso_iec_27001.md',
                         },
                     ],
                 },
@@ -53,63 +81,63 @@ export const sidebar: SidebarOptions = {
         },
         {
             text: 'Prompting',
-						icon: 'regular:file-image',
+            icon: 'regular:file-image',
             collapsible: false,
             children: [
                 {
                     text: 'Prompt Generators',
-										icon: 'regular:pen-to-square',
+                    icon: 'regular:pen-to-square',
                     link: '/txt2img/prompt_generators/readme.md',
                 },
             ],
         },
         {
             text: 'Flux1',
-						icon: 'regular:file-image',
+            icon: 'regular:file-image',
             collapsible: false,
             children: [
                 {
                     text: 'Black Forest Labs',
-										icon: 'regular:paper-plane',
+                    icon: 'regular:paper-plane',
                     link: 'https://bfl.ai/',
                 },
                 {
                     text: 'Guide',
-										icon: 'regular:file-image',
+                    icon: 'regular:file-image',
                     link: '/txt2img/flux1/readme.md',
                 },
             ],
         },
         {
             text: 'Midjourney',
-						icon: 'regular:file-image',
-						collapsible: false,
+            icon: 'regular:file-image',
+            collapsible: false,
             children: [
                 {
                     text: 'Midjourney',
-										icon: 'regular:paper-plane',
+                    icon: 'regular:paper-plane',
                     link: 'https://www.midjourney.com/',
                 },
                 {
                     text: 'Moodboards',
-										icon: 'regular:file-lines',
+                    icon: 'regular:file-lines',
                     link: '/txt2img/midjourney/moodboards.md',
                 },
             ],
         },
         {
             text: 'Stable Diffusion',
-						icon: 'regular:file-image',
-						collapsible: false,
+            icon: 'regular:file-image',
+            collapsible: false,
             children: [
                 {
                     text: 'SDXL',
-										icon: 'regular:file-lines',
+                    icon: 'regular:file-lines',
                     link: '/txt2img/sd/',
                 },
                 {
                     text: 'CLIP',
-										icon: 'regular:file-lines',
+                    icon: 'regular:file-lines',
                     link: '/txt2img/sd/clip.md',
                 },
             ],
