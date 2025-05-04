@@ -1,6 +1,6 @@
 ---
 title: Moral Uncertainty Framework
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Moral Uncertainty Framework (MUF)

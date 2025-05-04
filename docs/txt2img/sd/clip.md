@@ -1,6 +1,6 @@
 ---
 title: Contrastive Language-Image Pre-training
-icon: file-image
+icon: regular:file-image
 ---
 
 # CLIP: Contrastive Language-Image Pre-training

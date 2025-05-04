@@ -1,6 +1,6 @@
 ---
 title: stablediffusion
-icon: file-image
+icon: regular:file-image
 ---
 # Stable Diffusion
 

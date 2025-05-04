@@ -1,6 +1,6 @@
 ---
 title: Ethical Transparency Protocol
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Ethical Transparency Protocol (ETP)

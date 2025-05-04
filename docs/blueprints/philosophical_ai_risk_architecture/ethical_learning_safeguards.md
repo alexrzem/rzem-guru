@@ -1,6 +1,6 @@
 ---
 title: Ethical Learning Safeguards
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Ethical Learning Safeguards (ELS)

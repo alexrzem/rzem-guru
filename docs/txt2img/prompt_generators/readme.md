@@ -1,6 +1,6 @@
 ---
 title: Prompt Generators
-icon: pen-to-square
+icon: regular:pen-to-square
 ---
 
 # Prompt Generators

@@ -13,10 +13,11 @@ export const navbar: NavbarOptions = [
     {
         text: 'Txt2Img',
         children: [
-            { text: 'Prompting', link: '/txt2img/prompt_generators/' },
-            { text: 'Flux1', link: '/txt2img/flux1/' },
-            { text: 'Midjourney', link: '/txt2img/midjourney/' },
-            { text: 'Stable Diffusion', link: '/txt2img/sd/' },
+            { text: 'Image Generators', link: '/txt2img/txt2img.md', icon: 'regular:file-image' },
+            { text: 'Prompting', link: '/txt2img/prompt_generators/', icon: 'regular:file-image' },
+            { text: 'Flux1', link: '/txt2img/flux1/', icon: 'regular:file-image' },
+            { text: 'Midjourney', link: '/txt2img/midjourney/', icon: 'regular:file-image' },
+            { text: 'Stable Diffusion', link: '/txt2img/sd/', icon: 'regular:file-image' },
         ],
     },
 ] as NavbarOptions;

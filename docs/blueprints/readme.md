@@ -1,4 +1,4 @@
 ---
 title: Overview
-icon: file
+icon: regular:file
 ---

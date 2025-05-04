@@ -1,6 +1,6 @@
 ---
 title: Ethical Risk Assessment Matrix
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Ethical Risk Assessment Matrix (ERAM)

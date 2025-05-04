@@ -1,6 +1,6 @@
 ---
 title: Sociotechnical Integration Plan
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Sociotechnical Integration Plan (SIP)

@@ -1,6 +1,6 @@
 ---
 title: Philosophical Guardrail Architecture
-icon: file-lines
+icon: regular:file-lines
 ---
 
 # Philosophical Guardrail Architecture (PGA)
