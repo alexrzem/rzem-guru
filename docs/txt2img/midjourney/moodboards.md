@@ -3,10 +3,6 @@ title: moodboards
 icon: regular:file-image
 ---
 
-[https://sref-midjourney.com/](https://sref-midjourney.com/)
-
-Medusa --sref XXXXXXXXX --sref XXXXXXXXX
-
 ### 1990s Stylized Anime
 [![m1y7hag.png](https://rzem.ai/uploads/images/gallery/2025-04/scaled-1680-/m1y7hag.png)](https://rzem.ai/uploads/images/gallery/2025-04/m1y7hag.png)
 

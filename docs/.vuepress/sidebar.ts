@@ -123,6 +123,11 @@ export const sidebar: SidebarOptions = {
                     icon: 'regular:file-lines',
                     link: '/txt2img/midjourney/moodboards.md',
                 },
+				{
+                    text: 'Style References',
+                    icon: 'regular:file-lines',
+                    link: '/txt2img/midjourney/style_references.md',
+                },
             ],
         },
         {
