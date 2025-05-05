@@ -16,6 +16,7 @@
 		"@vuepress/bundler-vite": "2.0.0-rc.22",
 		"@vuepress/plugin-docsearch": "^2.0.0-rc.98",
 		"@vuepress/theme-default": "^2.0.0-rc.96",
+		"markdown-it-container": "^4.0.0",
 		"mermaid": "^11.6.0",
 		"sass-embedded": "^1.86.0",
 		"typescript": "^5.8.3",
@@ -31,6 +32,7 @@
 		"axios": "^1.9.0",
 		"fs-extra": "^11.3.0",
 		"lodash": "^4.17.21",
+		"markdown-it-include": "^2.0.0",
 		"vuepress-theme-hope": "^2.0.0-rc.84"
 	}
 }

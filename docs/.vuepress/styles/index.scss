@@ -1,3 +1,20 @@
 .vp-hero-infos {
 	text-align: center;
 }
+
+.info-box {
+	padding: 0.4rem;
+	background-color: oklch(27.8% 0.033 256.848); 
+	border-radius: 0.4rem;
+	border: 1px solid oklch(44.6% 0.03 256.802);
+}
+
+.info-box p {
+	margin: 0.6rem;
+	padding-bottom: 0.4rem;;
+}
+
+.info-box p:last-child {
+	margin: 0.6rem;
+	padding-bottom: 0rem;;
+}

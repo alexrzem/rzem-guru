@@ -4,6 +4,7 @@ import { defineUserConfig } from 'vuepress';
 import { viteBundler } from '@vuepress/bundler-vite';
 import { hopeTheme } from 'vuepress-theme-hope';
 
+import { markdownExtended } from './markdown';
 import { navbar } from './navbar';
 import { sidebar } from './sidebar';
 
@@ -22,6 +23,8 @@ export default defineUserConfig({
         '~/components': path.resolve(__dirname, './themes/components'),
         '~/composables': path.resolve(__dirname, './themes/composables'),
     },
+
+    extendsMarkdown: markdownExtended,
 
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/favicons/apple-touch-icon.png' }],
