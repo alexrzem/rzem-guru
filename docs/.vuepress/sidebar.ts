@@ -75,25 +75,26 @@ export const sidebar: SidebarOptions = {
     ],
     '/txt2img/': [
         {
-            text: 'Image Generators',
+            text: 'Image Tools',
             icon: 'regular:image',
-            link: '/txt2img/txt2img.md',
-        },
-        {
-            text: 'Prompting',
-            icon: 'regular:file-image',
             collapsible: false,
             children: [
                 {
+                    text: 'Image Generators',
+                    icon: 'regular:pen-to-square',
+                    link: '/txt2img/txt2img.md',
+                },
+				{
                     text: 'Prompt Generators',
                     icon: 'regular:pen-to-square',
-                    link: '/txt2img/prompt_generators/readme.md',
+                    link: '/txt2img/prompt_generators.md',
                 },
             ],
         },
         {
             text: 'Flux1',
             icon: 'regular:file-image',
+			link: '/txt2img/flux1/',
             collapsible: false,
             children: [
                 {
@@ -104,7 +105,7 @@ export const sidebar: SidebarOptions = {
                 {
                     text: 'Guide',
                     icon: 'regular:file-image',
-                    link: '/txt2img/flux1/readme.md',
+                    link: '/txt2img/flux1/guide.md',
                 },
             ],
         },

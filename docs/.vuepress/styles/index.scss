@@ -1,10 +1,14 @@
 :root {
+	--vp-c-accent: #2c97df;
+
     // external-link-icon
     --external-link-icon: url("/assets/icons/arrow-up-right-from-square.svg");
     --external-link-c-icon: var(--vp-c-text-mute);
 }
 
 [data-theme='dark'] {
+	--vp-c-accent: #2c97df;
+
     // external-link-icon
     --external-link-icon: url("/assets/icons/arrow-up-right-from-square.svg");
     --external-link-c-icon: var(--vp-c-text-mute);
@@ -15,18 +19,18 @@
 }
 
 .info-box {
-    padding: 0.4rem;
-    background-color: oklch(27.8% 0.033 256.848);
+    padding: 0.1rem;
+    background-color: transparent;
     border-radius: 0.4rem;
-    border: 1px solid oklch(44.6% 0.03 256.802);
+    border-left: 2px solid var(--vp-c-accent);
 }
 
 .info-box p {
-    margin: 0.6rem;
+    margin: 0.6rem 0.6rem 0.6rem 1rem;
     padding-bottom: 0.4rem;
 }
 
 .info-box p:last-child {
-    margin: 0.6rem;
+    margin: 0.6rem 0.6rem 0.6rem 1rem;
     padding-bottom: 0rem;
 }

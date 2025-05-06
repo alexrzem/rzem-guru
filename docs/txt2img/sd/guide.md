@@ -1,5 +1,5 @@
 ---
-title: Flux1
+title: flux1
 icon: regular:file-image
 ---
 # Flux1
