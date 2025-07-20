@@ -9,7 +9,7 @@ import { navbar } from './navbar';
 import { sidebar } from './sidebar';
 
 export default defineUserConfig({
-    lang: 'en-US',
+    lang: 'en-AU',
     title: 'rzem.guru',
     description: '',
 
